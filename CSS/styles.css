@@ -2,18 +2,74 @@ body {
     font-family: 'open sans', sans-serif;
 }
 
-.title {
+.list {
 
 }
 
-.text {
+.header {
 
 }
 
-.link {
+.nav {
 
 }
 
-.menu {
-    
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
+
+.nav-list {
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+.nav-item {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    list-style: none;
+}
+
+.address {
+    position: absolute;
+    color: #434455;
+}
+
+.address-list {
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
+.address-item {
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
 }
