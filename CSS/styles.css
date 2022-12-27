@@ -2,24 +2,15 @@ body {
     font-family: 'open sans', sans-serif;
 }
 
-.header {
-    background-color: ;
-}
-
-.header-nav {
-
-}
-
 .header-logo {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+    list-style: none;
+    text-decoration-color: #4D5AE5; 
+    text-decoration-color: #2E2F42 
 }
 
 .header-list {
