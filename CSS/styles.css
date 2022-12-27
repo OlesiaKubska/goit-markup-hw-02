@@ -71,3 +71,15 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
