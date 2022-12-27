@@ -25,7 +25,6 @@ body {
 .header-list {
     color: #2E2F42;
     font-weight: 500;
-    list-style: none;
 }
 
 .header-item {
@@ -35,6 +34,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    list-style: none;
 }
 
 .header-link {
@@ -55,15 +55,14 @@ body {
 .address-list {
     font-size: 16px;
     line-height: 1,5;
-    letter-spacing: 0.02em;
-    list-style: none;
-    list-style: none;
+    letter-spacing: 0.02em;    
 }
 
 .address-item {
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
+    list-style: none;
 }
 
 .address-link {
