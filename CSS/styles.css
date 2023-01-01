@@ -1,6 +1,16 @@
 body {
     font-family: 'open sans', sans-serif;
     background-color: #FFFFFF;
+    color: #2E2F42;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .header {
@@ -78,6 +88,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
@@ -113,13 +124,10 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
     color: #2E2F42;
 }
 
 .feature-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -128,15 +136,6 @@ body {
 
 .gallery {
     
-}
-
-.gallery-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
 .gallery-list {
@@ -151,20 +150,6 @@ body {
 
 }
 
-.team {
-    background-color: #F4F4FD;
-}
-
-.team-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-
 .team-list {
     list-style: none;
 }
@@ -175,16 +160,13 @@ body {
 
 .team-suptitle {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500 bold;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
 .team-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -196,7 +178,6 @@ body {
 }
 
 .footer-logo {
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -207,7 +188,6 @@ body {
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -234,13 +214,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #4D5AE5;
     background-color: #F4F4FD;
-}
-
-button:focus {
-    outline: none !important;
-    }    
+}   
 
 .project-list {
     list-style: none;
@@ -263,7 +240,6 @@ button:focus {
 }
 
 .project-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
